@@ -1,0 +1,91 @@
+*.root{
+--black: #212121;
+--green: #6D9886;
+--beige: #D9CAB3;
+--white: #F6F6F6;
+
+}
+
+/* HARD RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* FONTS */
+
+
+
+/* STYLE */
+
+body {
+  background-color: var(--beige);
+}
+
+header {
+
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.photo .background{
+  width: 50%;
+  height: 1000px;
+  position: absolute;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.3rem;
+  position: relative;
+  object-fit: cover;
+
+}
+
+header button {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.3rem;
+  position: relative;
+  object-fit: cover;
+}
+
+.photo .person {
+  position: relative;
+  width: 70%;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: 150px;
+  border-radius: 30px;
+}
+
+
+.about {
+
+  margin-right: 170px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  border-color: var(--black);
+  background-color: var(--white);
+  border-radius: 20px;
+}
