@@ -71,12 +71,14 @@ header button {
 
 .photo .person {
   position: relative;
-  width: 110%;
-  height: 570px;
+  width: 105%;
+  height: 480px;
   margin-top: 200px;
   margin-left: 100px;
   border-radius: 30px;
-
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 
@@ -84,9 +86,8 @@ header button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   margin-left: 390px;
-  margin-top: 160px;
+  margin-top: 190px;
   margin-right: 50px;
 }
 
@@ -99,7 +100,7 @@ header button {
 }
 
 .about p {
-  color: var(--black);
+  color: var(--beige);
   font-size: 1.5rem;
   font-weight:lighter;
   flex-wrap: wrap;
@@ -125,12 +126,23 @@ header button {
   border-color: var(--black);
   width: 90%;
   height: 50px;
+
+}
+
+.buttons a {
   text-decoration:none;
   color: var(--black);
-  font-weight: bold;
+  font-weight:700;
 }
 
 footer{
-  margin-left: 150px;
-  margin-bottom: 0px;
+  width: 100%;
+  height: 25px; 
+  margin-top: 270px;
+}
+
+footer .footer {
+  font-size: 1.1rem;
+  color: var(--black);
+  margin-left: 120px;
 }
